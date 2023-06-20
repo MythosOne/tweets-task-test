@@ -7,6 +7,7 @@ export const Container = styled.ul`
   justify-content: center;
   gap: 26px;
 
+  margin-top: 30px;
   padding: 0;
 
   list-style: none;
