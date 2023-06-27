@@ -9,7 +9,10 @@ function Tweets() {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
 
+  localStorage.setItem('items', JSON.stringify(items));
+
   useEffect(() => {
+
     setIsLoading(true);
 
     apiService(items, page)
@@ -21,6 +24,17 @@ function Tweets() {
       })
       .finally(() => setIsLoading(false));
   }, [page]);
+
+  // useEffect(() => {
+  //   setIsLoading(true);
+
+  //   apiService(items, page)
+  //   .then (cards => {
+  //     setItems((prevState)=>[...prevState, ...cards])
+  //   })
+  //   .catch(error=>console.error(error))
+  //   .finally(() => setIsLoading(false));
+  // },[page]);
 
   const loadMore = () => {
     setPage(prevState => prevState + 1);

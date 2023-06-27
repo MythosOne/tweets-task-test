@@ -1,5 +1,6 @@
-import styled from "@emotion/styled";
-import "@fontsource/montserrat";
+import styled from '@emotion/styled';
+import '@fontsource/montserrat';
+import background from '../../img/bgtweets.png'
 
 export const Container = styled.div`
   width: 380px;
@@ -35,13 +36,16 @@ export const ImageLogo = styled.img`
   margin-left: 20px;
 `;
 
-export const ImageEmoji = styled.img`
+export const ImageBackground = styled.div`
   width: 308px;
   height: 168px;
 
   position: relative;
   margin: 0 auto;
   margin-top: 28px;
+
+  background-image: url(${background});
+  background-size: cover;
 `;
 
 export const ImageAvatar = styled.img`
@@ -55,7 +59,7 @@ export const ImageAvatar = styled.img`
 `;
 
 export const ImageBorder = styled.img`
-margin-top: 15px;
+  margin-top: 15px;
 `;
 
 export const List = styled.ul`
@@ -68,7 +72,7 @@ export const List = styled.ul`
 
   margin-bottom: 26px;
 
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -81,7 +85,7 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   text-align: center;
 
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -89,4 +93,45 @@ export const ListItem = styled.li`
   text-transform: uppercase;
 
   color: #ebd8ff;
+`;
+
+const setButtonColor = props => {
+  if (props.state) {
+    return '#5CD3A8';
+  }
+  return '#EBD8FF';
+};
+
+const setHoverColor = props => {
+  if (props.state) {
+    return '#96E2C7';
+  }
+  return '#F2E5FF';
+};
+
+export const Button = styled.button`
+  width: 196px;
+  height: 50px;
+
+  margin-bottom: 26px;
+
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #373737;
+
+  background: ${setButtonColor};
+
+  &:hover {
+    background: ${setHoverColor};
+  }
 `;
