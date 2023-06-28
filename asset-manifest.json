@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/tweets-task-test/static/js/main.180c0360.js",
-    "static/js/415.cb8706a4.chunk.js": "/tweets-task-test/static/js/415.cb8706a4.chunk.js",
+    "main.js": "/tweets-task-test/static/js/main.f1c95dc5.js",
+    "static/js/415.5b7c53e0.chunk.js": "/tweets-task-test/static/js/415.5b7c53e0.chunk.js",
     "static/css/67.c12d64d3.chunk.css": "/tweets-task-test/static/css/67.c12d64d3.chunk.css",
-    "static/js/67.7b12d598.chunk.js": "/tweets-task-test/static/js/67.7b12d598.chunk.js",
-    "static/js/814.fb550c05.chunk.js": "/tweets-task-test/static/js/814.fb550c05.chunk.js",
+    "static/js/67.286eed42.chunk.js": "/tweets-task-test/static/js/67.286eed42.chunk.js",
+    "static/js/782.205fc8c6.chunk.js": "/tweets-task-test/static/js/782.205fc8c6.chunk.js",
     "static/media/bgtweets.png": "/tweets-task-test/static/media/bgtweets.86562350dcaa714a1442.png",
     "static/media/montserrat-latin-400-normal.woff": "/tweets-task-test/static/media/montserrat-latin-400-normal.0f1794a79a689a577c2a.woff",
     "static/media/montserrat-latin-ext-400-normal.woff": "/tweets-task-test/static/media/montserrat-latin-ext-400-normal.688aee1c9dd2450dd804.woff",
@@ -18,13 +18,13 @@
     "static/media/montserrat-vietnamese-400-normal.woff": "/tweets-task-test/static/media/montserrat-vietnamese-400-normal.f36d8e9e08c584303451.woff",
     "static/media/montserrat-vietnamese-400-normal.woff2": "/tweets-task-test/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/tweets-task-test/index.html",
-    "main.180c0360.js.map": "/tweets-task-test/static/js/main.180c0360.js.map",
-    "415.cb8706a4.chunk.js.map": "/tweets-task-test/static/js/415.cb8706a4.chunk.js.map",
+    "main.f1c95dc5.js.map": "/tweets-task-test/static/js/main.f1c95dc5.js.map",
+    "415.5b7c53e0.chunk.js.map": "/tweets-task-test/static/js/415.5b7c53e0.chunk.js.map",
     "67.c12d64d3.chunk.css.map": "/tweets-task-test/static/css/67.c12d64d3.chunk.css.map",
-    "67.7b12d598.chunk.js.map": "/tweets-task-test/static/js/67.7b12d598.chunk.js.map",
-    "814.fb550c05.chunk.js.map": "/tweets-task-test/static/js/814.fb550c05.chunk.js.map"
+    "67.286eed42.chunk.js.map": "/tweets-task-test/static/js/67.286eed42.chunk.js.map",
+    "782.205fc8c6.chunk.js.map": "/tweets-task-test/static/js/782.205fc8c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.180c0360.js"
+    "static/js/main.f1c95dc5.js"
   ]
 }

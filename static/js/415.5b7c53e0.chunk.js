@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktweets_task_test=self.webpackChunktweets_task_test||[]).push([[415],{415:function(e,t,n){n.r(t);var i=n(184),s={container:{minHeight:"calc(80vh - 92px)",display:"flex",alignItems:"center",justifyContent:"center",padding:0},title:{fontWeight:500,fontSize:48,textAlign:"center"}};t.default=function(){return(0,i.jsx)("dir",{style:s.container,children:(0,i.jsx)("h1",{style:s.title,children:"Welcome Tweets Page \ud83d\ude0e"})})}}}]);
+//# sourceMappingURL=415.5b7c53e0.chunk.js.map
