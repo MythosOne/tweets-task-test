@@ -9,7 +9,7 @@ function Tweets() {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
 
-  localStorage.setItem('items', JSON.stringify(items));
+  // localStorage.setItem('items', JSON.stringify(items));
 
   useEffect(() => {
 
