@@ -2,7 +2,7 @@
   "name": "tweets-task-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MythosOne.github.io/tweets-task-test",
+  "homepage": "https://MythosOne.github.io/tweets-task-test/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -22,9 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
