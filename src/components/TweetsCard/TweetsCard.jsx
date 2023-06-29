@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Container,
   ContainerImg,
@@ -19,6 +19,14 @@ import border from '../../img/border.png';
 function TweetsCard({ followercard }) {
   const [buttonState, setButtonState] = useState(false);
   const [value, setValue] = useState(followercard.followers);
+
+  // const [cardState, setCardState] = useState([]);
+  // useEffect(() => {
+    
+  //     localStorage.setItem('cardstate', JSON.stringify({value, buttonState}));
+    
+  // }, [value, buttonState])
+
 
   return (
     <Container>
