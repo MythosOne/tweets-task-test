@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import { TweetList } from '../components/TweetsList/TweetsList';
 import { Button } from '../components/Button/Button';
