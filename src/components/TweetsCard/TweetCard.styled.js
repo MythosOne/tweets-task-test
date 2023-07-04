@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import '@fontsource/montserrat';
-import background from '../../img/bgtweets.png'
+import background from '../../img/bgtweets.png';
 
 export const Container = styled.div`
   width: 380px;
@@ -17,11 +17,11 @@ export const Container = styled.div`
 export const ContainerImg = styled.div`
   display: flex;
   flex-direction: column;
-
-  height: 214px;
 `;
 
 export const ContainerCard = styled.div`
+  height: 268px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,18 +48,48 @@ export const ImageBackground = styled.div`
   background-size: cover;
 `;
 
-export const ImageAvatar = styled.img`
+export const ImageAvatar = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 80px;
   height: 80px;
 
-  position: absolute;
+  border-radius: 50%;
 
+  position: absolute;
   margin-left: 150px;
   margin-top: 178px;
+
+  background: #5736a3;
 `;
 
-export const ImageBorder = styled.img`
+export const AvatarBorder = styled.img`
+
+  position: absolute;
+  z-index: 2;
+
+  margin-top: 10px;
+`;
+
+export const Image = styled.img`
+  width: 62px;
+
+  border-radius: 50%;
+
+  position: absolute;
+  z-index: 1;
+`;
+
+export const Border = styled.div`
   margin-top: 15px;
+
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.4369285106658936px 2.5776965618133545px 0px #fbf8ff inset,
+    0px 3.4369285106658936px 3.4369285106658936px 0px rgba(0, 0, 0, 0.06),
+    0px -1.7184642553329468px 3.4369285106658936px 0px #ae7be3 inset;
 `;
 
 export const List = styled.ul`

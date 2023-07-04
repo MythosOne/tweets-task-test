@@ -9,11 +9,12 @@ import {
   ImageBackground,
   List,
   ListItem,
-  ImageBorder,
+  Border,
+  AvatarBorder,
   Button,
+  Image,
 } from './TweetCard.styled';
 import logo from '../../img/logo.png';
-import avatar from '../../img/avatar.png';
 import border from '../../img/border.png';
 
 function TweetsCard({ followercard }) {
@@ -22,19 +23,21 @@ function TweetsCard({ followercard }) {
 
   // const [cardState, setCardState] = useState([]);
   // useEffect(() => {
-    
-  //     localStorage.setItem('cardstate', JSON.stringify({value, buttonState}));
-    
-  // }, [value, buttonState])
 
+  //     localStorage.setItem('cardstate', JSON.stringify({value, buttonState}));
+
+  // }, [value, buttonState])
 
   return (
     <Container>
       <ContainerImg>
         <ImageLogo src={logo} alt="logo" />
-        <ImageBackground/>
-        <ImageAvatar src={avatar} alt="avatar" />
-        <ImageBorder src={border} alt="border" />
+        <ImageBackground />
+        <ImageAvatar>
+          <AvatarBorder src={border} alt="border" />
+          <Image src={followercard.avatar} alt="avatar" />
+        </ImageAvatar>
+        <Border />
       </ContainerImg>
       <ContainerCard>
         <List>

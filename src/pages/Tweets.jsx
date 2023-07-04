@@ -23,7 +23,7 @@ function Tweets() {
         console.error(error);
       })
       .finally(() => setIsLoading(false));
-  }, [items, page]);
+  }, [page]);
 
   // useEffect(() => {
   //   setIsLoading(true);
