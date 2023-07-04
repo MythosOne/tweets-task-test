@@ -11,20 +11,7 @@ function Tweets() {
 
   localStorage.setItem('items', JSON.stringify(items));
 
-  // useEffect(() => {
-
-  //   setIsLoading(true);
-
-  //   apiService(items, page)
-  //     .then(cards => {
-  //       setItems(() => [...items, ...cards]);
-  //     })
-  //     .catch(error => {
-  //       console.error(error);
-  //     })
-  //     .finally(() => setIsLoading(false));
-  // }, [page]);
-
+/* eslint-disable */
   useEffect(() => {
     setIsLoading(true);
 
@@ -35,7 +22,7 @@ function Tweets() {
       .catch(error => console.error(error))
       .finally(() => setIsLoading(false));
   }, [page]);
-
+/* eslint-disable */
   const loadMore = () => {
     setPage(prevState => prevState + 1);
   };
