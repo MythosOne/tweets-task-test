@@ -30,7 +30,7 @@ function Tweets() {
 
   //   apiService(items, page)
   //   .then (cards => {
-  //     setItems((prevState)=>[...prevState, ...cards])
+  //     setItems(prevItems=>[...prevItems, ...cards])
   //   })
   //   .catch(error=>console.error(error))
   //   .finally(() => setIsLoading(false));
