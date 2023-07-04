@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { TweetList } from '../components/TweetsList/TweetsList';
 import { Button } from '../components/Button/Button';
@@ -11,30 +12,30 @@ function Tweets() {
 
   localStorage.setItem('items', JSON.stringify(items));
 
-  useEffect(() => {
+  // useEffect(() => {
 
+  //   setIsLoading(true);
+
+  //   apiService(items, page)
+  //     .then(cards => {
+  //       setItems(() => [...items, ...cards]);
+  //     })
+  //     .catch(error => {
+  //       console.error(error);
+  //     })
+  //     .finally(() => setIsLoading(false));
+  // }, [page]);
+
+  useEffect(() => {
     setIsLoading(true);
 
     apiService(items, page)
       .then(cards => {
         setItems(() => [...items, ...cards]);
       })
-      .catch(error => {
-        console.error(error);
-      })
+      .catch(error => console.error(error))
       .finally(() => setIsLoading(false));
   }, [page]);
-
-  // useEffect(() => {
-  //   setIsLoading(true);
-
-  //   apiService(items, page)
-  //   .then (cards => {
-  //     setItems(prevItems=>[...prevItems, ...cards])
-  //   })
-  //   .catch(error=>console.error(error))
-  //   .finally(() => setIsLoading(false));
-  // },[page]);
 
   const loadMore = () => {
     setPage(prevState => prevState + 1);
