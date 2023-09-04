@@ -11,4 +11,8 @@ Frontend:
 Backend:
 1. mockapi.io.
 
+![Alt text](./src/img/Screenshot mockapi-data.png)
+![Alt text](./src/img/Screenshot mockapi-edit.png)
+
+
 
