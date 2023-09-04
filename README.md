@@ -6,7 +6,8 @@ Frontend:
 3. axios.
 4. react-loader-spinner.
 
-![Alt text](./src/img/tweets-task-test.png)
+![Alt text](./src/img/tweets-task-test-1.png)
+![Alt text](./src/img/tweets-task-test-2.png)
 
 Backend:
 1. mockapi.io.

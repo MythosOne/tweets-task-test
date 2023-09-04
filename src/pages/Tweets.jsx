@@ -11,8 +11,6 @@ function Tweets() {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
 
-  // localStorage.setItem('items', JSON.stringify(items));
-
   /* eslint-disable */
   useEffect(() => {
     localStorage.setItem('items', JSON.stringify(items));
